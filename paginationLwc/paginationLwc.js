@@ -1,5 +1,5 @@
 import { LightningElement, wire } from 'lwc';
-import geAllAccounts from '@salesforce/apex/AccountController.geAllAccounts';
+import getAllAccounts from '@salesforce/apex/AccountController.getAllAccounts';
 
 export default class PaginationLwc extends LightningElement {
     allAccounts = []; // Stores all account records fetched from Apex
@@ -17,7 +17,7 @@ export default class PaginationLwc extends LightningElement {
      * Fetches account records from the Apex method `getAllAccounts`
      * and calculates the total number of pages dynamically.
      */
-    @wire(geAllAccounts)
+    @wire(getAllAccounts)
     handleAccounts({ data, error }) {
         if (data) {
             this.allAccounts = data.map(acc=>({...acc,accUrl:`/lightning/r/Account/${acc.Id}/view`}));
