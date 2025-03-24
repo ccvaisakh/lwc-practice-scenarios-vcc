@@ -20,7 +20,7 @@
 - Objective:  
   The goal of this **Lightning Web Component (LWC)** is to create a paginated account list that fetches Account records from Salesforce and displays them in a structured, user-friendly manner using a **lightning-datatable**. This component aims to enhance data accessibility, navigation, and performance efficiency by implementing a pagination mechanism, ensuring that users can efficiently browse through large datasets without overwhelming the UI.
 
-- Code: [filterAccounts](https://github.com/ccvaisakh/lwc-practice-scenarios-vcc/tree/main/filterAccounts)
+- Code: [paginationLwc](https://github.com/ccvaisakh/lwc-practice-scenarios-vcc/tree/main/paginationLwc)
 
 <div align="center">
 	<img src="https://github.com/user-attachments/assets/706291c0-9928-4418-a773-66f1b21265b3" width="100%" alt="LWC PAGINATION – SCENARIO 2"/>
