@@ -1,0 +1,28 @@
+<template>
+    <lightning-card title="Pagination">
+        <!-- Lightning Datatable to display accounts -->
+        <lightning-datatable 
+            key-field="Id" 
+            columns={accColumns} 
+            data={pagination}>
+        </lightning-datatable>
+
+        <!-- Navigation buttons for pagination -->
+        <div class="slds-m-top_medium">
+            <lightning-button 
+                label="Back" 
+                onclick={handlePrevious} 
+                disabled={isPrevDisabled}>
+            </lightning-button>
+
+            <lightning-button 
+                label="Next" 
+                onclick={handleNext} 
+                disabled={isNextDisabled}>
+            </lightning-button>
+        </div>
+
+        <!-- Display current page and total pages -->
+        <p>Current Page: {currentPage} / {totalPages}</p>
+    </lightning-card>
+</template>
