@@ -23,9 +23,11 @@
 - Code: [paginationLwc](https://github.com/ccvaisakh/lwc-practice-scenarios-vcc/tree/main/paginationLwc)
 
 <div align="center">
-	<img src="https://github.com/user-attachments/assets/706291c0-9928-4418-a773-66f1b21265b3" width="100%" alt="LWC PAGINATION – SCENARIO 2"/>
-	<img src="https://github.com/user-attachments/assets/e7f1ff40-c28c-48d7-8f99-68542fc15f48" width="100%" alt="LWC PAGINATION – SCENARIO 2"/>
+	<img src="https://github.com/user-attachments/assets/bc91000b-3341-4b57-a9e6-04d1e0846e13" width="100%" alt="LWC PAGINATION – SCENARIO 2"/>
+	<img src="https://github.com/user-attachments/assets/a6cb20eb-d895-4eb3-b196-19d95a7a24de" width="100%" alt="LWC PAGINATION – SCENARIO 2"/>
 </div>
+
+
 
 
 
