@@ -2,12 +2,12 @@
 
 ## Scenario Solutions
 
-### [LWC FILTER & SEARCH – SCENARIO 1](#)
+### LWC FILTER & SEARCH – SCENARIO 1
 
 - Objective:  
   Develop a **Lightning Web Component (LWC)** that allows users to **filter and search Salesforce Accounts dynamically**. The component should retrieve account records from **Salesforce using Apex**, provide a **filter dropdown**, and allow **real-time search functionality**.
 
-- Code: [filterAccounts](https://github.com/your-repo/lwc-practice-scenario/tree/main/force-app/main/default/lwc/filterAccounts)
+- Code: [filterAccounts](https://github.com/ccvaisakh/lwc-practice-scenario/tree/main/force-app/main/default/lwc/filterAccounts)
 
 <div align="center">
 	<img src="https://github.com/user-attachments/assets/5890b8bf-5c5f-4aa7-b4c9-4e1a1bc3205a" width="100%" alt="LWC FILTER & SEARCH – SCENARIO 1"/>
