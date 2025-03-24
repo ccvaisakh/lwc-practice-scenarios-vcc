@@ -9,7 +9,7 @@ export default class PaginationLwc extends LightningElement {
 
     // Define columns for the lightning-datatable
     accColumns = [
-        { label: 'Name', fieldName: 'Name' },
+        { label: 'Name', fieldName: 'accUrl', type: 'url', typeAttributes: {label:{fieldName:'Name'},target:'_blank'} },
         { label: 'Type', fieldName: 'Type' }
     ];
 
@@ -20,7 +20,7 @@ export default class PaginationLwc extends LightningElement {
     @wire(geAllAccounts)
     handleAccounts({ data, error }) {
         if (data) {
-            this.allAccounts = data;
+            this.allAccounts = data.map(acc=>({...acc,accUrl:`/lightning/r/Account/${acc.Id}/view`}));
             this.totalPages = Math.ceil(data.length / this.noOfRecordsPerPage) || 1; // Ensure at least 1 page exists
         } else if (error) {
             console.error(error);
